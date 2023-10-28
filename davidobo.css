@@ -1,4 +1,4 @@
-  <style>
+
         :root {
             --color-primary: rgb(36, 113, 105);
             --color-secondary: #247169
@@ -608,4 +608,4 @@
         input[type=number] {
             -moz-appearance: textfield;
         }
-    </style>
+ 
