@@ -1,6 +1,6 @@
 
         :root {
-            --color-primary: rgb(36, 113, 105);
+            --color-primary: rgb(218, 56, 51);
             --color-secondary: #247169
         }
 
@@ -371,7 +371,7 @@
             width: 80%;
             font-size: 2rem;
             font-weight: 700;
-            color: #000;
+            color: #fff;
             padding: 1rem;
             border: none;
             background-color: #DA3833;
