@@ -1,7 +1,7 @@
 
         :root {
-            --color-primary: rgb(36, 113, 105);
-            --color-secondary: #247169
+            --color-primary: rgb(0, 0, 0);
+            --color-secondary: #000000
         }
 
         * {
@@ -139,7 +139,7 @@
         }
 
         .chat__conversation-box-content-comment-name {
-            color: #000000;
+            color: #BE1902;
             font-weight: 500;
             margin-right: .4rem
         }
@@ -371,10 +371,10 @@
             width: 80%;
             font-size: 2rem;
             font-weight: 700;
-            color: #000;
+            color: #fff;
             padding: 1rem;
             border: none;
-            background-color: #FECA05;
+            background-color: #EF1C25;
             border-top-left-radius: 14px;
             border-top-right-radius: 14px;
             border-bottom-left-radius: 14px;
